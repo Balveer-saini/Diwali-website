@@ -1,0 +1,115 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+.carousel-image{
+    height: 500px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.c-img1{
+    height: 240px;
+    object-fit: cover;
+    
+}
+
+.column-pad{
+    /* border: 4px solid rgb(255, 42, 42); */
+    margin-left: 70px;
+}
+
+
+
+
+
+.card-img1{
+
+    background-image: url(./imgs/dushherra2.jpg);
+    background-size: cover;
+    background-position:top;
+    filter: brightness(0.8);
+}
+.card-img1:hover{
+    transition: 1s;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+.card-img2{
+
+    background-image: url(./imgs/ayodhya.jpg);
+    background-size: cover;
+    background-position:top;
+    filter: brightness(0.8);
+}
+
+
+.card-img2:hover{
+    transition: 1s;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.0);
+}
+
+.card-img3{
+    
+    background-image: url(./imgs/harvest.jpg);
+    background-size: cover;
+    background-position:top;
+    filter: brightness(0.8);
+}
+.card-img3:hover{
+    transition: 1s;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+.card-img4{
+    
+    background-image: url(./imgs/narakashura.jpg);
+    background-size: cover;
+    background-position:top;
+    filter: brightness(0.8);
+}
+.card-img4:hover{
+    transition: 1s;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+.card-img5{
+    
+    background-image: url(./imgs/mata\ laxmi\ ji.jpg);
+    background-size: cover;
+    background-position:top;
+    filter: brightness(0.8);
+}
+
+.card-img5:hover{
+    transition: 1s;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+
+.card-link{
+    color: rgb(101, 101, 9);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.card-link:hover{
+    color: rgb(9, 9, 9);
+    transition: 0.2s;
+    font-size: large;
+}
+
+.c-hover:hover{
+    color: rgb(114, 114, 15);
+    transition: 0.2s;
+    transform: scaleY(2);
+
+}
